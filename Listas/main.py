@@ -1,0 +1,42 @@
+from lista import *
+from lista_encadeada import *
+
+def main():
+    # lista = Lista(10)
+    # lista.inserirSub(0,5)
+    # lista.inserirSub(1,8)
+    # lista.inserirSub(2,4)
+    # lista.inserirSub(3,6)
+    # lista.inserirSub(9,-1)
+    # lista.imprimir()
+    # lista.inserir(2,-2)
+    # lista.imprimir()
+    # lista.remover(3)
+    # lista.imprimir()
+    # lista.removerItem(7)
+    # lista.imprimir()
+
+    lista = Lista_Encadeada()
+    lista.inserir(0,1)
+    lista.inserir(1,4)
+    lista.inserir(2,3)
+    lista.inserir(3,8)
+    lista.imprimir()
+    lista.inserir(2,-1)
+    lista.inserir(3,-2)
+    lista.imprimir()
+    lista.remover(4)
+    lista.remover(3)
+    lista.remover(0)
+    lista.remover(0)
+    lista.remover(0)
+    lista.remover(0)
+    lista.remover(0)
+    lista.imprimir()
+    lista.inserir(0,1)
+    lista.inserir(1,4)
+    lista.inserir(2,3)
+    lista.imprimir()
+
+
+main()
