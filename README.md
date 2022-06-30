@@ -1,2 +1,2 @@
-# ED
-algoritmos da disciplina de estrutura de dados.
+# data_structure
+disciplina de estrutura de dados.
